@@ -1,0 +1,14 @@
+# cmake_minimum_required(VERSION <specify CMake version here>)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(NumberTriangle NumberTriangle.cpp)
+add_executable(LongestSubsequence LongestSubsequence.cpp)
+add_executable(LongestCommonSubsequence LongestCommonSubsequence.cpp )
+add_executable(NQueen NQueen.cpp)
+add_executable(ReversePolishNotation ReversePolishNotation.cpp)
+add_executable(Hanoi Hanoi.cpp )
+add_executable(Expression Expression.cpp)
+add_executable(Stairs Stairs.cpp)
+add_executable(PutApple PutApple.cpp)
